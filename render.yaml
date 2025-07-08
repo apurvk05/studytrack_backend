@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: studytrack-backend
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    branch: main
+    repo: https://github.com/apurvk05/studytrack_backend
